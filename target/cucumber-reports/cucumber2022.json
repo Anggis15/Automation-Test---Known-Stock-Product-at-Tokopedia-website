@@ -1,0 +1,219 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-20T10:20:19.829Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3036172100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "testcase.JumlahProduct.before()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Search a Product to Known that Stock",
+        "description": "",
+        "id": "check-product-stock;search-a-product-to-known-that-stock",
+        "after": [
+          {
+            "result": {
+              "duration": 739022400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "testcase.JumlahProduct.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3879834400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Accses link \"https://www.tokopedia.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.tokopedia.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "testcase.JumlahProduct.user_Accses_link(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1695554800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testcase.JumlahProduct.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 128655100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User in Tokopedia Homepage",
+            "match": {
+              "location": "testcase.JumlahProduct.user_in_Tokopedia_Homepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 667215600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testcase.JumlahProduct.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 827786400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Fill Search Box with \"infinix\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"infinix\"",
+                  "offset": 26
+                }
+              ],
+              "location": "testcase.JumlahProduct.user_Fill_Search_Box_with(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 545540900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testcase.JumlahProduct.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 462814500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Press Enter Key on Keyboard",
+            "match": {
+              "location": "testcase.JumlahProduct.user_Press_Enter_Key_on_Keyboard()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 690153400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testcase.JumlahProduct.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3194631500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Scroll Down the Browser",
+            "match": {
+              "location": "testcase.JumlahProduct.user_Scroll_Down_the_Browser()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 225397200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testcase.JumlahProduct.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 907181800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Click a Product",
+            "match": {
+              "location": "testcase.JumlahProduct.user_Click_a_Product()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 305179400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testcase.JumlahProduct.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2115258500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Get Information about Product Stock",
+            "match": {
+              "location": "testcase.JumlahProduct.user_Get_Information_of_Product_Stock()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 260468600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "testcase.JumlahProduct.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check Product Stock",
+    "description": "",
+    "id": "check-product-stock",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featuresfile/productStock.feature",
+    "tags": []
+  }
+]
